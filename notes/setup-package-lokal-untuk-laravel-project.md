@@ -1,5 +1,5 @@
 ---
-title: 5 Langkah Mengubah Branch master ke main
+title: Setup Package Lokal untuk Proyek Laravel
 tags:
   - php
   - laravel
