@@ -18,18 +18,18 @@ composer create-project --prefer-dist laravel/laravel sandbox
 # Ubah tambahkan repositories ke composer.json di sandbox
 
 ```json
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../packages/tall",
-            "options": {
-                "symlink": true
-            }
+"repositories": [
+    {
+        "type": "path",
+        "url": "../packages/tall",
+        "options": {
+            "symlink": true
         }
-    ],
-    "require": {
-        ...
-    },
+    }
+],
+"require": {
+    ...
+},
 ```
 
 # Install package seperti biasa
